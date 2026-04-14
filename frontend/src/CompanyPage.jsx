@@ -48,7 +48,7 @@ export default function CompanyPage() {
           </p>
         ) : null}
         <form onSubmit={handleSubmit}>
-          <div className="form-grid form-grid--2">
+          <div className="form-grid">
             <div className="field">
               <label htmlFor="company-name">Nombre comercial</label>
               <input
